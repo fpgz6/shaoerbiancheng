@@ -1,0 +1,55 @@
+.sample pre {  
+	background: #ddd; 
+	margin:5px 0px;
+	width:100%;
+}
+.sample pre code{
+    display:block;
+    padding:20px;
+}
+.sample{
+	font-size:16px;
+    padding-left:20px;
+    padding-bottom:100px;
+    padding-top:50px;
+}
+ h2{
+	color:#333;
+    font-size:32px;
+    font-weight:bold;
+   	margin:20px 0px 20px 0px;
+}
+.sample h3,h4{
+	margin:30px 0px 20px 0px;
+    color:#3090e4;
+}
+.sample p,code{
+    padding-bottom:20px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.sample p{
+	color:#333;
+    line-height:180%;
+}
+
+.sep50{
+	height:50px;
+}
+.nav a{
+	color:#333;
+}
+.nav .nav {
+	padding-left:10px;
+	display:none;
+}
+.active>.nav{
+	display:inherit;
+}
+.active>a{
+    font-weight:bold;
+   
+}
+.doc-item{
+	padding-top:100px;
+}

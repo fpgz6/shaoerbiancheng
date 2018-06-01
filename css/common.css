@@ -1,0 +1,92 @@
+ body{
+  font-family: Helvetica,'宋体','Lantinghei SC', 'Open Sans', Arial, 'Hiragino Sans GB', 'Microsoft YaHei', STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
+}
+list {
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+.jumbotron{
+	background-image: linear-gradient(45deg, rgb(2, 0, 49) 0px, rgb(109, 51, 83) 100%); 
+    color:#fff; 
+    text-shadow: 0 1px 3px rgba(0,0,0,.4),0 0 30px rgba(0,0,0,.075);
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.2),inset 0 -3px 7px rgba(0,0,0,.2);
+}
+
+@media screen and (min-width: 900px) {
+  .jumbotron{
+      padding-top:160px;
+      min-height:600px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .jumbotron{
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:100px;
+    padding-bottom:20px;
+  }
+}
+.jumbotron h1{
+	font-size:45px;
+}
+.jumbotron h2{
+	font-size:30px;
+    line-height:150%;
+}
+@media screen and (min-width: 900px) {
+	.market-text{
+        padding-bottom:120px;
+    }
+}
+
+.market-point{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.market-point p{
+    padding-top: 20px;
+}
+.works-item{
+	padding-bottom:10px;
+}
+.main{
+	min-height:100vh;
+    padding-bottom:100px;
+}
+
+.list .row{
+}
+.list .list-item{
+  padding: 20px 0;
+  text-overflow: ellipsis
+}
+.list .list-item a{
+	display:block;
+	overflow:hidden;
+    text-overflow: ellipsis;
+}
+.list  .name{
+  padding-left: 10px;
+  font-size: 16px;
+}
+.list .gray{
+  color:#999;
+}
+.list a{
+	padding-right:15px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+.hr5{
+  border: 1px solid #f2f2f2;
+  margin-top:5px;
+  margin-bottom: 5px;
+  width: 100%;
+  height: 1px;
+}
+.sep50{
+  width: 100%;
+  height: 50px;
+}
